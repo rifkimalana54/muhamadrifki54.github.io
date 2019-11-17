@@ -1,5 +1,5 @@
 body{
-    background-image:url("E:/Website/rifki54.github.io/bruno-cervera-u04LOF-72uU-unsplash.jpg");
+    background-image:url("bruno-cervera-u04LOF-72uU-unsplash.jpg");
     background-size:cover;
     background-attachment: fixed;
     padding: 30px;
@@ -18,7 +18,7 @@ h1, .nama_1, .nama_2, #dev{
 	box-sizing: border-box;
 	text-align: center;
 	color: white;
-	background-image: url(E:/Website/rifki54.github.io/marcel-strauss-rd9bLSvglVI-unsplash.jpg);
+	background-image: url(marcel-strauss-rd9bLSvglVI-unsplash.jpg);
 	background-size: cover;
 }
 .blur{
@@ -103,7 +103,7 @@ h1, .nama_1, .nama_2, #dev{
 	width: 1100px;
 	margin:0 auto;
 	min-height: 300px;
-	background-image: url(E:/Website/rifki54.github.io/openbook.jpg);
+	background-image: url(openbook.jpg);
 	background-size: cover;
 }
 .pesan{
