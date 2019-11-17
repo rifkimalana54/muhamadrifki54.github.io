@@ -1,0 +1,142 @@
+body{
+    background-image:url("E:/Website/rifki54.github.io/bruno-cervera-u04LOF-72uU-unsplash.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    padding: 30px;
+	font-family: sans-serif;
+}
+h1, .nama_1, .nama_2, #dev{
+	text-shadow: 2px 2px 8px;
+}
+.batas{
+	width: 1100px;
+	margin:0 auto;
+}
+.batas_2{
+	width: 100%;
+	padding: 40px 40px;
+	box-sizing: border-box;
+	text-align: center;
+	color: white;
+	background-image: url(E:/Website/rifki54.github.io/marcel-strauss-rd9bLSvglVI-unsplash.jpg);
+	background-size: cover;
+}
+.blur{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	opacity: 0.3;
+}
+.logo img{
+	margin-top: 50px;
+	width: 100px;
+	height: 100px;
+}
+.menu ul{
+	padding: 0;
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li a{
+	padding: 5px 10px;
+    text-decoration: none;
+}
+#dev{
+	color: red;
+	text-decoration: line-through;
+}
+.content{
+	background-color: white;
+	min-height: 180px;
+	box-shadow: 4px 4px 10px 2px rgba(0,0,0,.2);
+}
+.note{
+	float: left;
+	color: blue;
+	text-decoration: underline;
+	margin-left: 20px;
+}
+.Coding{
+	float: left;
+	color: blue;
+	text-decoration: underline;
+	margin-left: 370px;
+}
+.yohanes{
+	clear: both;
+	float: left;
+	margin-left: 20px;
+	max-width: 40%;
+}
+.teacher{
+	float: left;
+	margin-left: 80px;
+}
+.quids{
+	clear: both;
+	width: 1100px;
+	margin:0 auto;
+	min-height: 300px;
+	box-shadow: 4px 4px 10px 2px rgba(0,0,0,.2);
+}
+.education{
+	clear: both;
+	float: left;
+	background-color: #eee;
+	padding: 18px;
+	width: 50%;
+	height: 280px;
+}
+.sekolah{
+	clear: both;
+	color: blue;
+	text-decoration: underline;
+	padding-left: 15px;
+}
+#batas_akhir{
+	clear: both;
+	background-color: white;
+	width: 1100px;
+	margin:0 auto;
+	min-height: 300px;
+	background-image: url(E:/Website/rifki54.github.io/openbook.jpg);
+	background-size: cover;
+}
+.pesan{
+	padding-top: 20px;
+	margin-left: 20px;
+	color: blue;
+	text-decoration: underline;
+}
+.text_panjang_akhir{
+	text-align: justify;
+	color: orange;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.akhir{
+	color: red;
+	text-decoration: underline;
+	text-align: center;
+	margin-top: 80px;
+}
+#about{
+	clear: both;
+	background-color: #eee;
+	width: 1100px;
+	min-height: 300px;
+}
+.about_2{
+	color: blue;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-align: center;
+	text-decoration: underline;
+}
+#biodata{
+	padding-left: 30px;
+}
