@@ -140,3 +140,13 @@ h1, .nama_1, .nama_2, #dev{
 #biodata{
 	padding-left: 30px;
 }
+#sertifikat{
+	clear: both;
+	background-color: #eee;
+	width: 1100px;
+	margin:0 auto;
+	min-width: 500px;
+}
+#sertifikat, img, h2{
+	text-align: center;
+}
