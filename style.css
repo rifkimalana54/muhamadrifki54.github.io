@@ -151,3 +151,6 @@ h1, .nama_1, .nama_2, #dev{
 #sertifikat, img, h2{
 	text-align: center;
 }
+.image_contact {
+        border-radius: 50%;
+} 
