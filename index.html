@@ -1,172 +1,171 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-  	<meta charset="utf-8">
-  	<title>welcome to my biodate</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>My Profile</title>
     <style>
-      body{
-        background: wheat;
-        background-attachment: fixed;
-        background-size: cover;
-        padding-top: 20px;
-        padding-right: 115px;
-        padding-left: 115px;
-        margin: 20px auto;
-        font-family: sans-serif;
-      }
-      #gambar{ text-align: center; }
-
-      img{ border-radius: 50%; }
-
-      #bagian1{
-        background: #FDF5E6;
-        padding-top: 50px;
-        margin-left: 45px;
-        width: 315px;
-        height: 936px;
-        float: left;
-        margin-bottom: 40px
-      }
-      #about{
-        float: left;
-        width: 135px;
-        margin-left: 15px;
-        height: 200px;
-      }
-      .footer{
-        color: #FFFFFF;
-        text-align: center;
-        background: #CD853F;
-        width: 290px;
-        margin-left: 10px;
+      .container .row ul li{
+        margin-top: 10px;
       }
 
-      #gambarContact{ width: 40px;  margin-left: 15px;  float: left; }
-
-      a{ text-decoration: none; }
-
-      .text{
-        margin-top: 27px;
-        margin-bottom: 35px;
-      }
-      #bagian2{
-        background: #CD853F;
-        margin-right: 30px;
-        height: 275px;
-        width: 700px;
-        float: right;
-      }
-      #nama{
-        text-align: center;
-        font-size: 20px;
-        font-family: serif;
-        letter-spacing: 8px;
-      }
-
-      #goals{ text-align: center; }
-
-      .footer2{
-        float: right;
-        width: 700px;
-        height: 60px;
-        margin-top: 20PX;
-        margin-right: 30px;
-        background: #CD853F;
-        text-align: center;
-      }
-      .text_profile{
-        float: right;
-        width: 700px;
-        margin-right: 30px;
+      .container .col-sm p {
         text-align: justify;
       }
-      #education2{
-        float: right;
-        margin-top: 10px;
-        font-size: 20px;
-        margin-right: 230px;
+
+      table {
+        margin-left: 20px;
+      }
+
+      table tr td img{
+        margin: 10px 20px 0 20px;
+      }
+      progress {
+        width: 1150%;
+      }
+
+      /*Responisve Breakpoint*/
+
+      /*Ukuran Tablet*/
+      @media screen and (max-width: 1000px) {
+        progress {
+          width: 720%; 
+        }
+
+        table{
+          margin: 0;
+        }
+
+      }
+
+      /*Ukuran HP*/
+      @media screen and (max-width: 568px) {
+        progress {
+          width: 1150%; 
+        }
       }
     </style>
+
   </head>
   <body>
-    	<div id="bagian1">
-    	  <div id="gambar">
-    	    <img src="foto_saya.jpg" width="230" height="230">
-    	  </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="position: fixed; width: 100%;">
+      <a class="navbar-brand" href="#">Muhamad Rifki Maulana</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    	  <div id="about">
-    	  	<h4>City, date of birth<br> Religion <br>Gender<br>Weight<br>Height<br>Address</h4>
-    	  </div>
-    	  <div>
-    	  	<h4>: Cirebon, 29 juli 2001<br>: Islam<br>: male<br>: 52kg<br>:175cm<br>: jl.Syekh Nurjati Desa Wanasaba Kidul Rt 01/02 Kec. Talun Kab. Cirebon </h4>
-    	  </div>
-
-    	  <div class="footer">
-    	  	<h1>HOBBY</h1>
-    	  </div>
-    	  <div>
-    	  	<ul>
-    	  	  <h4><li>playing football</li></h4>
-    	  	  <h4><li>Drawing/Sketch</li></h4>
-    	  	  <h4><li>Ngoding</li></h4>
-    	  	  <h4><li>Ngopi udud</li></h4>
-    	  	</ul>
-    	  </div>
-
-    	  <div class="footer">
-    	    <h1>CONTACT</h1>
-    	  </div>
-    	  <div id="gambarContact">
-    	    <img src="facebook.jpg" width="30" height="30"><br><br>
-    	    <img src="instagram.jpg" width="30" height="30"><br><br>
-    	    <img src="whatsapp.jpg" width="30" height="30">
-    	  </div>
-    	  <div class="text">
-    	  	<a href="https://m.facebook.com/profile.php"><h4>Muhamad Rifki</h4></a>
-    	  </div>
-    	  <div class="text">
-    	    <a href="https://www.instagram.com/mhmd.rifki_54/"><h4>mhmd.rifki_54</h4></a>
-    	  </div>
-    	  <div class="text">
-    	  	<a href="https://api.whatsapp.com/send?phone=+6289623032892&text=Hi:)"><h4>089623032892</h4></a>
-    	  </div>
-    	</div>
-
-    	<div id="bagian2">
-        <div id="nama">
-          <h1>MUHAMAD</h1>
-          <h1>RIFKI</h1>
-        </div>
-        <div id="goals">
-          <p>my goals<br>__________</p>
-          <h2>Full Stack Developer</h2>
-        </div>
-    	</div>
-
-      <div class="footer2">
-        <h1>PROFILE</h1>
-      </div>
-      <div class="text_profile">
-        <h3>Saya berumur 19 tahun kuliah(s1) Teknik Informatika, saya tinggal di cirebon dari lahir masih bersama orang tua, saya sangat senang mempelajari hal baru seperti di dalam pemrograman sesuai dengan jurusan kuliah saya dan saya dapat bekerjasma dengan tim.</h3>
-      </div>
-
-      <div class="footer2">
-        <h1>EDUCATION</h1>
-      </div>
-      <div id="education2">
-        <ul>
-          <li><h4>2008-2013 : SDN 1 Wanasaba Kidul, Talun Cirebon</h4></li>
-          <li><h4>2013-2016 : SMP Al-Washliyah, Sumber Cirebon</h4></li>
-          <li><h4>2016-2019 : SMK Sultan Agung, Sumber Cirebon</h4></li>
-          <li><h4>2019-2023 : STMIK IKMI CIREBON</h4></li>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Profile <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+          </li>
         </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
       </div>
+    </nav>
 
-      <div class="footer2">
-        <h1>Note Mylife</h1>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container text-center">
+        <img src="foto_saya.jpg" width="250" height="250" class="rounded-circle">
+        <h1 class="display-4">Muhamad Rifki maulana</h1>
+        <p class="lead">Full Stack Develpoer</p>
       </div>
-      <div class="text_profile">
-  	    <h3>"Tidak ada orang bodoh, yang ada hanya orang yang malas yang tidak mau berusaha belajar." Dan janagn mudah merasa puas untuk belajar, karena orang-orang yang berhenti belajar akan menjadi pemilik masalalu sedangkan orang-orang yang masih terus belajar akan menjadi pemilik masa depan.</h3>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <div class="alert alert-dark bg-dark text-center" role="alert" style="color: white;">
+            EDUCATION
+          </div>
+          <ul>
+            <li><b>2006-2013 : SDN 1 Wanasaba Kidul, Talun Cirebon</b></li>
+            <li><b>2013-2016 : SMP Al-Washliyah, Sumber Cirebon</b></li>
+            <li><b>2016-2019 : SMK Sultan Agung, Sumber Cirebon</b></li>
+            <li><b>2019-2023 : STMIK IKMI CIREBON</b></li>
+          </ul>
+        </div>
+        <div class="col-sm">
+          <div class="alert alert-dark bg-dark text-center" role="alert" style="color: white;">
+            NOTE MYLIFE
+          </div>
+          <p><b>"Tidak ada orang bodoh, yang ada hanya orang malas yang tidak mau berusaha belajar. -Yohanes Surya-" Jangan mudah merasa puas untuk belajar, karena orang-orang yang berhenti belajar akan menjadi pemilik masa lalu sedangkan orang-orang yang masih terus belajar akan menadi pemilik masa depan.</b></p>
+        </div>
       </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <div class="alert alert-dark bg-dark text-center" role="alert" style="color: white;">
+            SKILLS
+          </div>
+          <table>
+            <tr>
+              <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png" width="50"></td>
+              <td><progress value="60" max="105"></progress>60%</td>
+            </tr>
+            <tr>
+              <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" width="50"></td>
+              <td><progress value="65" max="105"></progress>65%</td>
+            </tr>
+            <tr>
+              <td><img src="https://img.favpng.com/21/1/11/javascript-html-logo-blog-css3-png-favpng-HB6CdpVBsYzsWN0iU5HT6QJtf.jpg" width="50"></td>
+              <td><progress value="20" max="105"></progress>20%</td>
+            </tr>
+            <tr>
+              <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRXKCiQyGTp41xqLJV8nlIjyf7fx6AS7jBMN4uHf1DF09nlw21w&usqp=CAU" width="50"></td>
+              <td><progress value="15" max="105"></progress>15%</td>
+            </tr>
+          </table>
+        </div>
+        <div class="col-sm">
+          <div class="alert alert-dark bg-dark text-center" role="alert" style="color: white;">
+            CONTACT
+          </div>
+          <table>
+            <tr class="icon-contact">
+              <td><img src="https://lh6.googleusercontent.com/proxy/gu--ZDa1ZnVwdgWfJaIiC3awyGJ033xTfSQ3ZA9NrHYLjAsPCG_VDq2fpHh3vNTjIduUCHyJvIg0FBpYCjunSLrGKos62BcYQg=s0-d" width="50" class="rounded-circle"></td>
+              <td><a href="https://api.whatsapp.com/send?phone=+6289623032892&text=Hi rifki :)"><b>089623032892</b></a></td>
+            </tr>
+            <tr>
+              <td><img src="https://w7.pngwing.com/pngs/692/335/png-transparent-instagram-computer-icons-social-app-bhatkhora-school-insta-text-logo-android.png" width="50" class="rounded-circle"></td>
+              <td><a href="https://www.instagram.com/mhmd.rifki_54/"><b>mhmd.rifki_54</b></a></td>
+            </tr>
+            <tr>
+              <td><img src="https://img2.pngdownload.id/20180803/zvw/kisspng-portable-network-graphics-computer-icons-clip-art-%C6%8Flaq%C9%99-%E2%80%93-tekerim-az-5b64ac74552ff5.0657049915333244043489.jpg" width="50" class="rounded-circle"></td>
+              <td><a href="https://m.facebook.com/profile.php"><b>Muhamad Rifki</b></a></td>
+            </tr>
+            <tr>
+              <td><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="50" class="rounded-circle"></td>
+              <td><a href="https://github.com/rifkimalana54"><b>Rifki Maulana54</b></a></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+
+  
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
-</html> 
+</html>
