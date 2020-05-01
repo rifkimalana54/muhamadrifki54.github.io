@@ -11,7 +11,7 @@
     <title>My Profile</title>
     <style>
       .container .row ul li{
-        margin-top: 10px;
+        margin-top: 20px;
       }
 
       .container .col-sm p {
@@ -40,9 +40,13 @@
       }
 
       /*Ukuran HP*/
-      @media screen and (max-width: 500px){
+      @media screen and (max-width: 550px){
         progress {
-          width: 400%; 
+          width: 150px; 
+        }
+
+        .card {
+          margin-left: 100px;
         }
 
         #jumbotron #jumbotron2 img {
@@ -81,13 +85,44 @@
     <div class="jumbotron jumbotron-fluid" id="jumbotron">
       <div class="container text-center" id="jumbotron2">
         <img src="foto_saya.jpg" width="250" height="250" class="rounded-circle">
-        <h1 class="display-4">Muhamad Rifki maulana</h1>
+        <h1 class="display-4">Muhamad Rifki Maulana</h1>
         <p class="lead">Full Stack Developer</p>
       </div>
     </div>
 
     <div class="container">
       <div class="row">
+        <div class="col-sm">
+          <div class="alert alert-dark bg-dark text-center" role="alert" style="color: white;">
+            ABOUT
+          </div>
+          <table>
+            <tr>
+              <td><b>City, DateOfBirth</b></td>
+              <td><b>: Cirebon, 29 Juli 2001</b></td>
+            </tr>
+            <tr>
+              <td><b>Religion</b></td>
+              <td><b>: Islam</b></td>
+            </tr>
+            <tr>
+              <td><b>Gender</b></td>
+              <td><b>: Male</b></td>
+            </tr>
+            <tr>
+              <td><b>Weight</b></td>
+              <td><b>: 52kg</b></td>
+            </tr>
+            <tr>
+              <td><b>Height</b></td>
+              <td><b>: 175cm</b></td>
+            </tr>
+            <tr>
+              <td><b>Address</b></td>
+              <td><b>: Jl. Syekh Nurjati Desa Wanasaba Kidul Rt.01 Rw.02 Kec. Talun</b></td>
+            </tr>
+          </table>
+        </div>
         <div class="col-sm">
           <div class="alert alert-dark bg-dark text-center" role="alert" style="color: white;">
             EDUCATION
@@ -99,12 +134,7 @@
             <li><b>2019-2023 : STMIK IKMI CIREBON</b></li>
           </ul>
         </div>
-        <div class="col-sm">
-          <div class="alert alert-dark bg-dark text-center" role="alert" style="color: white;">
-            NOTE MYLIFE
-          </div>
-          <p><b>"Tidak ada orang bodoh, yang ada hanya orang malas yang tidak mau berusaha belajar. -Yohanes Surya-" Jangan mudah merasa puas untuk belajar, karena orang-orang yang berhenti belajar akan menjadi pemilik masa lalu sedangkan orang-orang yang masih terus belajar akan menadi pemilik masa depan.</b></p>
-        </div>
+        
       </div>
     </div>
 
@@ -116,20 +146,20 @@
           </div>
           <table>
             <tr>
-              <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png" width="50"></td>
-              <td><progress value="60" max="105"></progress>60%</td>
+              <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png" width="40"></td>
+              <td><progress value="60" max="105"></progress> 60%</td>
             </tr>
             <tr>
-              <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" width="50"></td>
-              <td><progress value="65" max="105"></progress>65%</td>
+              <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" width="40"></td>
+              <td><progress value="65" max="105"></progress> 65%</td>
             </tr>
             <tr>
-              <td><img src="https://img.favpng.com/21/1/11/javascript-html-logo-blog-css3-png-favpng-HB6CdpVBsYzsWN0iU5HT6QJtf.jpg" width="50"></td>
-              <td><progress value="20" max="105"></progress>20%</td>
+              <td><img src="https://img.favpng.com/21/1/11/javascript-html-logo-blog-css3-png-favpng-HB6CdpVBsYzsWN0iU5HT6QJtf.jpg" width="40"></td>
+              <td><progress value="20" max="105"></progress> 20%</td>
             </tr>
             <tr>
-              <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRXKCiQyGTp41xqLJV8nlIjyf7fx6AS7jBMN4uHf1DF09nlw21w&usqp=CAU" width="50"></td>
-              <td><progress value="15" max="105"></progress>15%</td>
+              <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRXKCiQyGTp41xqLJV8nlIjyf7fx6AS7jBMN4uHf1DF09nlw21w&usqp=CAU" width="40"></td>
+              <td><progress value="15" max="105"></progress> 15%</td>
             </tr>
           </table>
         </div>
@@ -159,7 +189,66 @@
       </div>
     </div>
 
+    <div class="col-sm">
+      <div class="alert alert-dark bg-dark text-center" role="alert" style="color: white;">
+        PORTFOLIO
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+          <div class="card" style="width: 18rem; margin: 0 20px 0 100px;">
+            <img src="sertifikat1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sertifikat</h5>
+              <p class="card-text">18 November 2019 Mendapatkan sertifikat kelas belajar dasar pemrograman web dari Dicoding</p>
+            </div>
+          </div>
 
+          <div class="card" style="width: 18rem; margin-right: 20px; margin-top: 20px">
+            <img src="sertifikat2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sertifikat</h5>
+              <p class="card-text">20 April 2020 Mendapatkan sertifikat kelas belajar Fundamental Front-End Web Development dari Dicoding</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem; margin-right: 20px; margin-top: 20px;">
+            <img src="0.jpg.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Stm 54</h5>
+              <p class="card-text">9 April 2019 Moment terakhir kali berkumpul bersama teman SMK #stm54</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem; margin: 20px 20px 0 100px;">
+            <img src="4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Stm 54</h5>
+              <p class="card-text">9 April 2019 Moment terakhir kali berkumpul bersama teman SMK #stm54</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem; margin-right: 20px; margin-top: 20px;">
+            <img src="3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Stm 54</h5>
+              <p class="card-text">9 April 2019 Moment terakhir kali berkumpul bersama teman SMK #stm54</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem; margin-top: 20px">
+            <img src="1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Stm 54</h5>
+              <p class="card-text">9 April 2019 Moment terakhir kali berkumpul bersama teman SMK #stm54</p>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="alert alert-dark bg-dark text-center" role="alert" style="color: white; margin: 20px 0 0 0;">
+      &copyCopyright By M. Rifki Maulana 2020.
+    </div>
   
 
     <!-- Optional JavaScript -->
