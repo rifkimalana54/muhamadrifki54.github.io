@@ -58,7 +58,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="position: absolute; width: 100%;">
-      <a class="navbar-brand" href="#">Muhamad Rifki Maulana</a>
+      <a class="navbar-brand">Muhamad Rifki Maulana</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -66,13 +66,13 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" id="nav-about">About<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Profile <span class="sr-only">(current)</span></a>
+            <a class="nav-link" id="nav-education">Education <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+            <a class="nav-link" id="nav-skill">Skills <span class="sr-only">(current)</span></a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -93,7 +93,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm">
-          <div class="alert alert-dark bg-dark text-center" role="alert" style="color: white;">
+          <div class="alert alert-dark bg-dark text-center" role="alert" id="about" style="color: white;">
             ABOUT
           </div>
           <table>
@@ -124,7 +124,7 @@
           </table>
         </div>
         <div class="col-sm">
-          <div class="alert alert-dark bg-dark text-center" role="alert" style="color: white;">
+          <div class="alert alert-dark bg-dark text-center" role="alert" id="education" style="color: white;">
             EDUCATION
           </div>
           <ul>
@@ -141,7 +141,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm">
-          <div class="alert alert-dark bg-dark text-center" role="alert" style="color: white;">
+          <div class="alert alert-dark bg-dark text-center" role="alert" id="skill" style="color: white;">
             SKILLS
           </div>
           <table>
@@ -249,6 +249,32 @@
     <div class="alert alert-dark bg-dark text-center" role="alert" style="color: white; margin: 20px 0 0 0;">
       &copy2020 M. Rifki Maulana
     </div>
+
+    <script>
+        const navAbout = document.getElementById("nav-about");
+ 
+        navAbout.addEventListener('click', () => {
+            let halAbout = document.getElementById("about")
+            halAbout.scrollIntoView();
+            window.scrollBy(0, -100)
+        });
+
+        const navEducation = document.getElementById("nav-education");
+ 
+        navEducation.addEventListener('click', () => {
+            let halEducation = document.getElementById("education")
+            halEducation.scrollIntoView();
+            window.scrollBy(0, -100)
+        });
+
+        const navSkill = document.getElementById("nav-skill");
+ 
+        navSkill.addEventListener('click', () => {
+            let halSkill = document.getElementById("skill")
+            halSkill.scrollIntoView();
+            window.scrollBy(0, -100)
+        });
+    <\script>
   
 
     <!-- Optional JavaScript -->
