@@ -55,6 +55,32 @@
       }
     </style>
 
+    <script>
+        const navAbout = document.getElementById("nav-about");
+ 
+        navAbout.addEventListener('click', () => {
+            let halAbout = document.getElementById("about")
+            halAbout.scrollIntoView();
+            window.scrollBy(0, -100)
+        });
+
+        const navEducation = document.getElementById("nav-education");
+ 
+        navEducation.addEventListener('click', () => {
+            let halEducation = document.getElementById("education")
+            halEducation.scrollIntoView();
+            window.scrollBy(0, -100)
+        });
+
+        const navSkill = document.getElementById("nav-skill");
+ 
+        navSkill.addEventListener('click', () => {
+            let halSkill = document.getElementById("skill")
+            halSkill.scrollIntoView();
+            window.scrollBy(0, -100)
+        });
+    <\script>
+
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="position: absolute; width: 100%;">
@@ -249,32 +275,6 @@
     <div class="alert alert-dark bg-dark text-center" role="alert" style="color: white; margin: 20px 0 0 0;">
       &copy2020 M. Rifki Maulana
     </div>
-
-    <script>
-        const navAbout = document.getElementById("nav-about");
- 
-        navAbout.addEventListener('click', () => {
-            let halAbout = document.getElementById("about")
-            halAbout.scrollIntoView();
-            window.scrollBy(0, -100)
-        });
-
-        const navEducation = document.getElementById("nav-education");
- 
-        navEducation.addEventListener('click', () => {
-            let halEducation = document.getElementById("education")
-            halEducation.scrollIntoView();
-            window.scrollBy(0, -100)
-        });
-
-        const navSkill = document.getElementById("nav-skill");
- 
-        navSkill.addEventListener('click', () => {
-            let halSkill = document.getElementById("skill")
-            halSkill.scrollIntoView();
-            window.scrollBy(0, -100)
-        });
-    <\script>
   
 
     <!-- Optional JavaScript -->
