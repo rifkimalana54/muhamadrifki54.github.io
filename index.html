@@ -10,6 +10,9 @@
 
     <title>My Profile</title>
     <style>
+      a:active {
+        background: black;
+      } 
       .container .row ul li{
         margin-top: 20px;
       }
@@ -74,6 +77,12 @@
           </li>
           <li class="nav-item active">
             <a class="nav-link" id="nav-skill">Skills <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" id="nav-contact">Contact <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" id="nav-portfolio">Portfolio <span class="sr-only">(current)</span></a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -165,7 +174,7 @@
           </table>
         </div>
         <div class="col-sm">
-          <div class="alert alert-dark bg-dark text-center" role="alert" style="color: white;">
+          <div class="alert alert-dark bg-dark text-center" role="alert" id="contact" style="color: white;">
             CONTACT
           </div>
           <table>
@@ -191,7 +200,7 @@
     </div>
 
     <div class="col-sm">
-      <div class="alert alert-dark bg-dark text-center" role="alert" style="color: white;">
+      <div class="alert alert-dark bg-dark text-center" role="alert" id="portfolio" style="color: white;">
         PORTFOLIO
       </div>
     </div>
@@ -273,6 +282,22 @@
         navSkill.addEventListener('click', () => {
             let halSkill = document.getElementById("skill")
             halSkill.scrollIntoView();
+            window.scrollBy(0, -100)
+        });
+
+        const navContact = document.getElementById("nav-contact");
+ 
+        navContact.addEventListener('click', () => {
+            let halContact = document.getElementById("contact")
+            halContact.scrollIntoView();
+            window.scrollBy(0, -100)
+        });
+
+        const navPortfolio = document.getElementById("nav-portfolio");
+ 
+        navPortfolio.addEventListener('click', () => {
+            let halPortfolio = document.getElementById("portfolio")
+            halPortfolio.scrollIntoView();
             window.scrollBy(0, -100)
         });
     </script>
