@@ -61,7 +61,7 @@
 
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="position: absolute; width: 100%;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar" style="position: fixed; width: 100%; z-index: 1">
       <a class="navbar-brand">Muhamad Rifki Maulana</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -300,6 +300,17 @@
             halPortfolio.scrollIntoView();
             window.scrollBy(0, -100)
         });
+      
+      var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var curentScrollpos = window.pageYOffset;
+            if (prevScrollpos > curentScrollpos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-56px";
+            }
+            prevScrollpos = curentScrollpos;
+        }
     </script>
 
     <!-- Optional JavaScript -->
